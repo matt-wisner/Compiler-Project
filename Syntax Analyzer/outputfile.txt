@@ -1,0 +1,67 @@
+Tokens			Lexemes
+IDENTIFIER      =       x
+S -> I = E
+OPERATOR        =       =
+IDENTIFIER      =       y
+E -> TQ
+T -> FR
+F -> id
+OPERATOR        =       +
+R -> e
+Q -> +TQ
+IDENTIFIER      =       z
+T -> FR
+F -> id
+SEPARATOR       =       ;
+R -> e
+Q -> e
+Statement valid 
+
+IDENTIFIER      =       x
+S -> I = E
+OPERATOR        =       =
+IDENTIFIER      =       z
+E -> TQ
+T -> FR
+F -> id
+OPERATOR        =       /
+R -> /FR
+IDENTIFIER      =       y
+F -> id
+SEPARATOR       =       ;
+R -> e
+Q -> e
+Statement valid 
+
+IDENTIFIER      =       P
+S -> I = E
+OPERATOR        =       =
+IDENTIFIER      =       Q
+E -> TQ
+T -> FR
+F -> id
+OPERATOR        =       *
+R -> *FR
+IDENTIFIER      =       R
+F -> id
+SEPARATOR       =       ;
+R -> e
+Q -> e
+Statement valid 
+
+IDENTIFIER      =       nypc
+S -> I = E
+OPERATOR        =       =
+IDENTIFIER      =       Yeti
+E -> TQ
+T -> FR
+F -> id
+OPERATOR        =       *
+R -> *FR
+IDENTIFIER      =       Cheese
+F -> id
+SEPARATOR       =       ;
+R -> e
+Q -> e
+Statement valid 
+
